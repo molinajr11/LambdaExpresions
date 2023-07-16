@@ -21,7 +21,11 @@ ActionListener -> actionPerfomed()
 - En la programacion funcional pudemos crear nuestras propias interfaces funcionales y en los metodos podemos ponerlos a retornar algo o no si tipamos los metodos en la funcion lambda debemos usar el valor que se desea retornar.
 # Pre defined function interface paquete java.util.function (8)
 Estas interfaces funcionales se utilizan comunmente en programacion funcional y permiten pasar funciones como argumentos, devolver funciones como resultados y realizar operaciones funcionales en colecciones de datos.
-- Predicate <T> (I):
+# Predicate <T> (I):
 - puede ser cualquier tipo Integer, String, Double ...
 - Solo contiene un metodo abstracto que es test(): este metodo solo recive un paramentro y retorna true or false osea es metodo tipo boleano. 
 - se usa cuando se quiere revisar condiciones
+
+# Function <T,R> Tipo Retorno
+- Contiene el metodo abstracto apply() que toma el el parametro T y devuelve un resultado tipo R
+util cuando se necesita realizar una transformacion o calculo en un objeto de entrada y obtener un resultado correspondiente. Puede ser utilizada en muchas situaciones, como mapeo de objetos, conversion de tipos de datos, aplicaciones de formulas matematicas
