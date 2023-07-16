@@ -1,11 +1,17 @@
+import java.util.Optional;
+
 public class Employe {
     String name;
-    int salary;
+    Double salary;
     int experience;
 
-    public Employe(String name, int salary, int experience) {
+    Double inpuestos;
+
+
+    public Employe(String name, Double salary, int experience) {
         this.name = name;
         this.salary = salary;
         this.experience = experience;
     }
+
 }

@@ -32,9 +32,9 @@ public class Main {
         System.out.println(isGreaterThan.test(text));
 
         List<Employe> listaEmployemployes = new ArrayList<Employe>();
-        listaEmployemployes.add(new Employe("juan",100,3));
-        listaEmployemployes.add(new Employe("esteban",1000,3));
-        listaEmployemployes.add(new Employe("magda",800,5));
+        listaEmployemployes.add(new Employe("juan",100.0,3));
+        listaEmployemployes.add(new Employe("esteban",1000.0,3));
+        listaEmployemployes.add(new Employe("magda",800.0,5));
 
         Predicate <Employe> predicate=employe1 -> (employe1.salary>300 && employe1.experience>2);
         for (Employe e:listaEmployemployes) {
